@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "title": "⚡ IMPORTANT NOTICE",
+  "message": "Welcome to SPEEDUP TV!\n\nWe have an important update for our viewers. Please read this announcement carefully.",
+  "button": "GOT IT",
+  "show_cancel": false,
+  "cancel_button": "CLOSE",
+  "background_color": "#171B2B",
+  "title_color": "#00D9FF",
+  "message_color": "#FFFFFF",
+  "button_color": "#00AEEF"
+}

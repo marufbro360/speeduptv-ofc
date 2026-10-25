@@ -3,7 +3,7 @@
   "title": "⚡ IMPORTANT NOTICE",
   "message": "Welcome to SPEEDUP TV!\n\nআপনাদের সবাইকে আমাদের SPEEDUP TV তে স্বাগতম। আপনাদের সবাইকে স্বাগতম আমাদের এপস এ, আমাদের এপস এ আপনারা বাংলাদেশি সকল ধরনের খবরের চ্যানেল ও বাচ্চাদের কার্টুন দেখতে পারবেন SPEEDUP TV তে ।",
   "button": "GOT IT",
-  "show_cancel": false,
+  "show_cancel": true,
   "cancel_button": "CLOSE",
   "background_color": "#171B2B",
   "title_color": "#00D9FF",

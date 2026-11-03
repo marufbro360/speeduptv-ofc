@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Speedup TV - BDIX IPTV App</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes pulse-glow {
+            0%, 100% { box-shadow: 0 0 15px rgba(239, 68, 68, 0.4); }
+            50% { box-shadow: 0 0 30px rgba(239, 68, 68, 0.8); }
+        }
+        .glow-btn {
+            animation: pulse-glow 2s infinite;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-white min-h-screen flex items-center justify-center p-4 relative overflow-hidden">
+
+    <!-- Background Glow Effects -->
+    <div class="absolute -top-40 -left-40 w-96 h-96 bg-red-600/20 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-40 -right-40 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-md w-full bg-slate-900/80 backdrop-blur-xl rounded-3xl shadow-2xl p-8 text-center border border-slate-800 relative z-10">
+        
+        <!-- App Logo / Icon with Glow -->
+        <div class="w-28 h-28 mx-auto mb-5 bg-gradient-to-tr from-red-600 via-rose-500 to-orange-500 rounded-3xl flex items-center justify-center shadow-2xl shadow-red-600/30 ring-4 ring-slate-800/80">
+            <svg class="w-14 h-14 text-white drop-shadow-md" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+            </svg>
+        </div>
+        
+        <h1 class="text-3xl font-extrabold tracking-tight mb-1 bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">Speedup TV</h1>
+        <p class="text-red-400 text-sm font-medium mb-4">Ultimate BDIX IPTV Experience</p>
+        
+        <!-- App Meta Info Badge -->
+        <div class="flex justify-center items-center gap-3 mb-6">
+            <span class="bg-slate-800/80 text-slate-300 text-xs px-3 py-1 rounded-full border border-slate-700">📦 Version 1.0.0</span>
+            <span class="bg-slate-800/80 text-slate-300 text-xs px-3 py-1 rounded-full border border-slate-700">💾 ~15 MB</span>
+            <span class="bg-emerald-950/80 text-emerald-400 text-xs px-3 py-1 rounded-full border border-emerald-800/50">🟢 Secure APK</span>
+        </div>
+
+        <!-- Features Grid -->
+        <div class="grid grid-cols-1 gap-2.5 mb-8 text-left text-xs text-slate-300">
+            <div class="flex items-center gap-3 bg-slate-800/50 p-3 rounded-xl border border-slate-800">
+                <span class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold">✓</span>
+                <span>সুপার ফাস্ট BDIX সার্ভার স্ট্রিমিং</span>
+            </div>
+            <div class="flex items-center gap-3 bg-slate-800/50 p-3 rounded-xl border border-slate-800">
+                <span class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold">✓</span>
+                <span>এইচডি কোয়ালিটি লাইভ টিভি ও মুভিজ</span>
+            </div>
+            <div class="flex items-center gap-3 bg-slate-800/50 p-3 rounded-xl border border-slate-800">
+                <span class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold">✓</span>
+                <span>কোনো অ্যাড বা ঝামেলা ছাড়া ক্লীন ইন্টারফেস</span>
+            </div>
+        </div>
+
+        <!-- Download Button -->
+        <a href="https://speeduptv-ofc.vercel.app/SPEEDUPTV.apk" class="glow-btn block w-full bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-500 hover:to-orange-500 text-white font-bold py-4 px-6 rounded-2xl transition-all duration-300 shadow-xl text-center text-base tracking-wide flex items-center justify-center gap-2">
+            <svg class="w-5 h-5 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+            </svg>
+            Download APK Now
+        </a>
+        
+        <p class="text-[11px] text-slate-500 mt-6">Android 5.0+ সাপোর্টেড • নিরাপদ ও ভ্যারাজাইড</p>
+    </div>
+</body>
+</html>
